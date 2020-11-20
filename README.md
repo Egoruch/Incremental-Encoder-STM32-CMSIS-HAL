@@ -7,7 +7,7 @@ ___
 * STM32CubeIDE
 * CMSIS/HAL
  ## Connection diagram
-  ![alt text](https://github.com/Egoruch/Empty-Project-F030F4-CMSIS/blob/main/Img/cubeide_window_f030f4p6.png)
+  ![alt text](https://cxemka.com/upload/art/enc/stm32_encoder_connection_diagram.svg)
 
  ## Debug
  
