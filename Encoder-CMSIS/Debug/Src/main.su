@@ -1,0 +1,5 @@
+core_cm0.h:623:22:__NVIC_EnableIRQ	16	static
+main.c:10:5:main	8	static
+main.c:88:6:Enc_Trig_Int	8	static
+main.c:105:6:GPIO_Initialization	8	static
+main.c:124:6:TIM3_IRQHandler	8	static

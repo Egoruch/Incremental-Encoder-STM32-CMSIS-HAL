@@ -1,0 +1,5 @@
+"CMSIS/Src/system_stm32f0xx.o"
+"Src/main.o"
+"Src/syscalls.o"
+"Src/sysmem.o"
+"Startup/startup_stm32f030f4px.o"
