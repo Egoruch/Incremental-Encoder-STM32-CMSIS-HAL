@@ -14,13 +14,18 @@ ___
  
 ```
 /* Trigger Edge Detector */
+
 /* 0000: No filter, sampling is done at fDTS */
 TIM3->SMCR &= ~(TIM_SMCR_ETF);
+
 /* 100: TI1 Edge Detector (TI1F_ED) */
 TIM3->SMCR &= ~(TIM_SMCR_TS_0 | TIM_SMCR_TS_1);
+
 TIM3->SMCR |= TIM_SMCR_TS_2;
+
 /* 1: Trigger interrupt enabled. */
 TIM3->DIER |= TIM_DIER_TIE;
+
 NVIC_EnableIRQ(TIM3_IRQn);
 ```
 ```
