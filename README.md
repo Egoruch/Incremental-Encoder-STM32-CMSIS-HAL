@@ -1,6 +1,6 @@
 # Incremental-Encoder-STM32-CMSIS-HAL
  Connection rotary (incremental encoder) to STM32F030F4P6 with CMSIS and HAL and compare memory usage.
-* Article (rus): 
+* Article (rus): https://cxemka.com/71-podklyuchenie-enkodera-dupa-k-stm32-cmsis-i-hal.html
 * Youtube (rus): https://youtu.be/1CPk9UD4440
 ___
 * STM32F030F4P6
