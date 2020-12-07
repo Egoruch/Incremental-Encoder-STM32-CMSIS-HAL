@@ -15,9 +15,6 @@ ___
 ```
 /* Trigger Edge Detector */
 
-/* 0000: No filter, sampling is done at fDTS */
-TIM3->SMCR &= ~(TIM_SMCR_ETF);
-
 /* 100: TI1 Edge Detector (TI1F_ED) */
 TIM3->SMCR &= ~(TIM_SMCR_TS_0 | TIM_SMCR_TS_1);
 
