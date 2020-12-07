@@ -17,7 +17,6 @@ ___
 
 /* 100: TI1 Edge Detector (TI1F_ED) */
 TIM3->SMCR &= ~(TIM_SMCR_TS_0 | TIM_SMCR_TS_1);
-
 TIM3->SMCR |= TIM_SMCR_TS_2;
 
 /* 1: Trigger interrupt enabled. */
