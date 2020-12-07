@@ -19,7 +19,7 @@ ___
 TIM3->SMCR &= ~(TIM_SMCR_TS_0 | TIM_SMCR_TS_1);
 TIM3->SMCR |= TIM_SMCR_TS_2;
 
-/* 1: Trigger interrupt enabled. */
+/* 1: Trigger interrupt enabled */
 TIM3->DIER |= TIM_DIER_TIE;
 
 NVIC_EnableIRQ(TIM3_IRQn);
